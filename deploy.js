@@ -3,8 +3,8 @@ const HDWalletProvider = require('@truffle/hdwallet-provider');
 const Web3 = require('web3');
 const { abi, evm } = require('./compile');
 
-provider = new HDWalletProvider('type toward enforce onion runway wolf cream ladder rate enemy other magnet',
-'https://rinkeby.infura.io/v3/1e4382d2613d4763b9d126aa0a832d4f');
+provider = new HDWalletProvider('Your Mnemonic 12 words code',
+'Your infura endpoint');
 
 const web3 = new Web3(provider);
 
